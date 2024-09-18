@@ -64,6 +64,16 @@ header .logo {
     color: #ffb347; /* Gold logo to make it stand out */
 }
 
+.logo img {
+    width: 150px; /* Adjust this size based on your preference */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero-img.webp') no-repeat center center/cover;
